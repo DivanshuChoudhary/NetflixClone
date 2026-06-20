@@ -75,3 +75,32 @@ body{
     background:gray;
     color:white;
 }
+
+/* Movies Section */
+
+.movies-section{
+    padding:40px 60px;
+}
+
+.movies-section h2{
+    margin-bottom:20px;
+}
+
+.movie-row{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
+
+.movie-card{
+    width:220px;
+    height:130px;
+    background:#333;
+    border-radius:8px;
+    transition:0.3s;
+    cursor:pointer;
+}
+
+.movie-card:hover{
+    transform:scale(1.08);
+}
