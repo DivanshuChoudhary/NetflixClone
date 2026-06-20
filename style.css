@@ -104,3 +104,42 @@ body{
 .movie-card:hover{
     transform:scale(1.08);
 }
+
+.movies-section{
+    padding:40px 60px;
+}
+
+.movies-section h2{
+    margin-bottom:20px;
+    color:white;
+}
+
+.movie-row{
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.movie-card{
+    width:220px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+.movie-card img{
+    width:100%;
+    height:130px;
+    object-fit:cover;
+    border-radius:8px;
+}
+
+.movie-card h3{
+    text-align:center;
+    margin-top:8px;
+    color:white;
+    font-size:14px;
+}
+
+.movie-card:hover{
+    transform:scale(1.08);
+}
