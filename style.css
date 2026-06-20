@@ -177,3 +177,31 @@ body{
     color:white;
 }
 
+@media(max-width:768px){
+
+    .navbar{
+        padding:20px;
+    }
+
+    .hero{
+        padding:20px;
+        text-align:center;
+    }
+
+    .hero h1{
+        font-size:40px;
+    }
+
+    .movie-row{
+        justify-content:center;
+    }
+
+    .movie-card{
+        width:160px;
+    }
+
+    .footer-links{
+        grid-template-columns:repeat(2,1fr);
+    }
+
+}
