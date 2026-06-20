@@ -143,3 +143,10 @@ body{
 .movie-card:hover{
     transform:scale(1.08);
 }
+
+.nav-icons{
+    font-size:24px;
+    cursor:pointer;
+    margin-left:auto;
+    margin-right:20px;
+}
